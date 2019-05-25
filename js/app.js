@@ -56,4 +56,17 @@
             return false;
         }
 	}
+
+	function toggleNavigation() {
+		document.getElementById("navigation").classList.toggle("navigation-visible");
+		document.getElementById("navigation").classList.toggle("navigation-hidden");
+	}
+
+	let menu = document.getElementById("menu");
+	menu.addEventListener("click", toggleNavigation);
+	menu.addEventListener("keydown", function(event) {
+		if (event.keyCode == "13") {
+			toggleNavigation();
+		}
+	});
 }());
