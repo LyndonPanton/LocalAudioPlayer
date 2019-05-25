@@ -8,7 +8,7 @@
 		}
 	});
 
-	let file document.getElementById("form-file");
+	let file = document.getElementById("form-file");
 	file.addEventListener("change", function(event) {
 		let firstFile = this.files[0];
 
