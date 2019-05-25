@@ -10,6 +10,6 @@
 
 	let file document.getElementById("form-file");
 	file.addEventListener("change", function(event) {
-		let firstFile = this.file[0];
+		let firstFile = this.files[0];
 	});
 }());
