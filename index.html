@@ -15,7 +15,21 @@
 	</header>
 
 	<main id="main">
-		
+		<label id="form-file-label" for="form-file" tabindex="0">Please select an audio file</label>
+        <input id="form-file" class="visually-hidden" type="file" name="form-file" tabindex="-1" />
+        
+        <audio id="audio-player" src="" controls>
+            This browser/device does not support the HTML5 audio element
+        </audio>
+        
+        <p id="feedback">
+            <span id="feedback-status">File Details:</span>
+            <span id="feedback-name" class="feedback-detail">N/A</span>
+            <span id="feedback-size" class="feedback-detail">N/A</span>
+            <span id="feedback-type" class="feedback-detail">N/A</span>
+        </p>
+
+        <!-- Add links to license free audio (e.g bbcsfx) -->
 	</main>
 
 	<footer id="footer">
