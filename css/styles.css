@@ -15,6 +15,7 @@ body, html {
 
 /* Header ///////////////////////////////// */
 h1 {
+	align-self: center;
     margin: 0;
     padding: 10px 0;
     text-align: center;
@@ -24,6 +25,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding: 10px 0;
     background-color: #32D081;
 }
 
