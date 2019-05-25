@@ -11,5 +11,17 @@
 	let file document.getElementById("form-file");
 	file.addEventListener("change", function(event) {
 		let firstFile = this.files[0];
+
+		let valid = checkInput(firstFile);
+
+		if (valid) {
+			// Add file src to audio
+		} else {
+			return;
+		}
 	});
+
+	function checkInput(input) {
+		
+	}
 }());
