@@ -112,6 +112,7 @@ p {
 	min-height: 83%;
 	padding: 0 10px;
 	background-color: #F66867;
+	transition: 2s all ease-out;
 }
 
 /* Footer ///////////////////////////////// */
