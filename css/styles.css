@@ -23,3 +23,45 @@ h1 {
 header {
     background-color: #32D081;
 }
+
+/* Main /////////////////////////////////// */
+audio {
+    display: block;
+    margin: 40px auto 0;
+}
+
+label {
+    display: block;
+    margin: 40px auto 0;
+    border: 1px #F66867 solid;
+    border-radius: 20px;
+    min-width: 20%;
+    max-width: 30%;
+    padding: 20px 20px;
+    background-color: #3D93DD;
+    text-align: center;
+    color: white;
+}
+
+label:active {
+    border: 2px #3D93DD dashed;
+    background-color: #F7DD7D;
+    color: black;
+}
+
+p {
+    margin: 40px auto 0;
+    border: 1px #3D93DD solid;
+    border-radius: 6px;
+    min-width: 25%;
+    max-width: 35%;
+    padding: 40px 40px;
+    background-color: #F7DD7D;
+    text-align: center;
+}
+
+.feedback-detail {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 0;
+}
