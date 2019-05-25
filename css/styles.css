@@ -87,6 +87,14 @@ p {
     padding: 10px 0 0;
 }
 
+.navigation-hidden {
+	left: -500px;
+}
+
+.navigation-visible {
+	left: 0px;
+}
+
 .visually-hidden {
     position: absolute !important;
     height: 1px;
@@ -99,7 +107,6 @@ p {
 #navigation {
 	position: absolute;
 	top: 83px;
-	left: -500px;
 	z-index: 1;
 	margin: 0;
 	min-height: 83%;
