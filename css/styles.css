@@ -87,8 +87,17 @@ p {
     padding: 10px 0 0;
 }
 
+.navigation-head {
+	text-decoration: underline;
+}
+
 .navigation-hidden {
 	left: -500px;
+}
+
+.navigation-list {
+	list-style-type: none;
+	padding: 0;
 }
 
 .navigation-visible {
@@ -114,6 +123,7 @@ p {
 	padding: 0 10px;
 	background-color: #F66867;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
 	transition: 2s all ease-out;
 }
 
