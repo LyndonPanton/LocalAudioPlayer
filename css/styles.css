@@ -23,11 +23,16 @@ h1 {
 }
 
 header {
+	z-index: 2;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	padding: 10px 0;
     background-color: #32D081;
+}
+
+header > * {
+	z-index: 2;
 }
 
 #menu {
@@ -91,10 +96,22 @@ p {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+#navigation {
+	position: absolute;
+	top: 83px;
+	left: -500px;
+	z-index: 1;
+	margin: 0;
+	min-height: 83%;
+	padding: 0 10px;
+	background-color: #F66867;
+}
+
 /* Footer ///////////////////////////////// */
 footer {
     position: fixed;
     bottom: 0;
+    z-index: 2; 
     margin: 0;
     min-width: 100%;
     padding: 10px 0;
