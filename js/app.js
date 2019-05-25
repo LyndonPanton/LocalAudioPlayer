@@ -16,10 +16,22 @@
 
 		if (valid) {
 			// Add file src to audio
+			addAudio(firstFile);
 		} else {
 			return;
 		}
 	});
+
+	function addAudio(file) {
+		let reader = new FileReader();
+
+		reader.addEventListener("load", function(event) {
+			let audio = document.getElementById("audio-player");
+			audio.src = event.target.result;
+		})
+
+		reader.readAsDataURL(file)
+	}
 
 	function checkInput(input) {
 		// If a file has been received
