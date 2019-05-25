@@ -40,8 +40,10 @@ header > * {
 	flex-basis: 10px;
 	border: 2px #5BC5EA solid;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 20px 25px;
 	background-color: #F66867;
+	text-align: center;
+	color: white;
 }
 
 
