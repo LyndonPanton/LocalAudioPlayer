@@ -46,6 +46,11 @@ header > * {
 	color: white;
 }
 
+#menu:active {
+	background-color: #F7DD7D;
+	color: black;
+}
+
 
 /* Main /////////////////////////////////// */
 audio {
