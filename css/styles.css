@@ -24,6 +24,7 @@ header {
     background-color: #32D081;
 }
 
+
 /* Main /////////////////////////////////// */
 audio {
     display: block;
@@ -64,4 +65,13 @@ p {
     display: block;
     margin: 0 auto;
     padding: 10px 0 0;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
 }
