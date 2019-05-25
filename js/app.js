@@ -7,4 +7,9 @@
 			document.getElementById("form-file").click();
 		}
 	});
+
+	let file document.getElementById("form-file");
+	file.addEventListener("change", function(event) {
+		let firstFile = this.file[0];
+	});
 }());
